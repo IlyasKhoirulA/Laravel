@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/contoh', function () {
     return "tulisan";
 });
+
+Route::get('/fol', function () {
+    return view('fol.test.index');
+});
+
+
